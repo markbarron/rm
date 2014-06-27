@@ -1,0 +1,14 @@
+/* ######## Orange Skin #########  */ 
+
+.main-section { background-color:rgba(78,39,43,0.82); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4c4e272b', endColorstr='#4c4e272b'); /* IE */
+  }
+  
+.counter-wrap p, .subscribe p span, p.spany2 span { color:#e2626e;  }
+
+input.button { background:url("../img/submit-bg.png") no-repeat #e2626e;   }
+
+input.hoveri {    background-color:#c94e5a;  }
+
+.wrap input.submit-contact {  background-color:#e2626e!important; color:#ffffff!important; width:100%; height:50px; margin:10px auto; } 
+
+.title-div  { background-color:#e2626e!important; }

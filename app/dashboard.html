@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon2.ico">
+
+    <title>Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="dashboard.html"><span class="glyphicon glyphicon-stats"></span> Resident <span class="brand-color">Metrics</span></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><img src="img/profile-icon.png"></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Mark Barron <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="">Profile</a></li>
+                <li><a href="">Setttings</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="index.html">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="dashboard.html"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
+            <li><a href="maintenance-fees.html"><span class="glyphicon glyphicon-wrench"></span> Maintenance</a></li>
+            <li><a href="rent.html"><span class="glyphicon glyphicon-usd"></span> Rent</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-calendar"></span> Occupancy</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-home"></span> Vacancy</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="bar-chart.html"><span class="glyphicon glyphicon-stats"></span> Bar Chart</a></li>
+            <li><a href="morris-chart.html"><span class="glyphicon glyphicon-stats"></span> Morris Chart</a></li>
+            <li><a href="add-new-property.html"><span class="glyphicon glyphicon-plus"></span> Add New Property</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+          <div class="row placeholders">
+            <div class="col-xs-6 col-sm-4 placeholder">
+              <h2><small><a href="maintenance-fees.html">Maintenance Fees</a></small></h2>
+              <div class="data">
+                <span class="number">12%</span>
+                <span class="glyphicon glyphicon-arrow-up positive"></span>
+                <span class="data-description">0.12 higher</span>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 placeholder">
+              <h2><small><a href="rent.html">New Rentals</a></small></h2>
+              <div class="data">
+                <span class="number">17</span>
+                <span class="glyphicon glyphicon-arrow-up positive"></span>
+                <span class="data-description">2 more</span>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 placeholder">
+              <h2><small><a href="dashboard.html">Total Vacancies</a></small></h2>
+              <div class="data">
+                <span class="number">27</span>
+                <span class="glyphicon glyphicon-arrow-down negative"></span>
+                <span class="data-description">4 less</span>
+              </div>
+            </div>
+          </div>
+          <div class="row placeholders">
+            <div class="col-xs-6 col-sm-4 placeholder">
+              <h2><small><a href="maintenance-fees.html">Average Fees Collected</a></small></h2>
+              <div class="data">
+                <span class="number">$5,200</span>
+                <span class="glyphicon glyphicon-arrow-up positive"></span>
+                <span class="data-description">0.12 higher</span>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 placeholder">
+              <h2><small><a href="rent.html">New Rentals</a></small></h2>
+              <div class="data">
+                <span class="number">7</span>
+                <span class="glyphicon glyphicon-arrow-down negative"></span>
+                <span class="data-description">4 less</span>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 placeholder">
+              <h2><small><a href="dashboard.html">Average Occupancy</a></small></h2>
+              <div class="data">
+                <span class="number">16</span>
+                <span class="glyphicon glyphicon-arrow-down negative"></span>
+                <span class="data-description">2 months</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/flot/flot.js"></script>
+    <script src="js/flot/flot.resize.js"></script>
+    <script src="js/maintenance-line-chart.js"></script>
+  </body>
+</html>

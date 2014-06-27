@@ -1,0 +1,198 @@
+body {
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  background-color: rgba(0,0,0,0);
+}
+a {
+  color: #8E9EAE;
+}
+/* ----------------------------
+  Heading Styles
+  ---------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #6f6f6f;
+}
+/* ----------------------------
+  Navbar Styles
+  ---------------------------*/
+.navbar-inverse {
+  background-color: #fff;
+  border-color: #eee;
+  border-bottom: 1px solid #d1d4d7;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  z-index: 1010;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-brand {
+  color: #3A5A7A;
+  font-weight: 300;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #3A5A7A;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #E2624B;
+  font-weight: 300;
+}
+.navbar-nav > li img {
+  border-radius: 50%;
+  padding: 9px 0;
+}
+.nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #13C4A5;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #E1E5E9;
+  color: #E2624B;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #E2624B;
+  /* background-color: transparent; */
+  background-color: #E1E5E9;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background: none;
+}
+.glyphicon-stats,
+.brand-color {
+  color: #e2624b;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: #13C4A5;
+}
+/* ----------------------------
+  Flot Chart Styles
+  ---------------------------*/
+.demo-placeholder {
+  width: 100%;
+  height: 250px;
+}
+.data-series {
+  display: inline-block;
+  padding-top: 15px;
+}
+  button {
+  background-color: #e2624b;
+  color: #ffffff;
+  padding: 6px 12px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #3276b1;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button.fetch-series + a {
+  display: none;
+}
+
+/* ----------------------------
+  Sidebar Area
+  ---------------------------*/
+.sidebar {
+  background-color: #233445;
+  /* border-right: 1px solid #1E2D3C; */
+}
+.nav-sidebar > .active > a:focus .glyphicon-stats,
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #13C4A5;
+  border-left: 5px solid transparent;
+}
+.nav-sidebar > li > a {
+  border-left: 5px solid transparent;
+}
+.nav-sidebar > li > a:hover,
+.nav-sidebar > li > a:focus {
+  border-left: 5px solid #E2624B;
+}
+.nav-sidebar .glyphicon-stats {
+  color: #8E9EAE;
+}
+.nav-sidebar .active .glyphicon-stats {
+  color: #fff;
+}
+.nav-sidebar a:hover > .glyphicon-stats,
+.nav-sidebar a:focus > .glyphicon-stats {
+  color: #fff;
+}
+
+/* ----------------------------
+  Widget Area
+  ---------------------------*/
+.data {
+  width: 100%;
+  color: #3e5a66;
+}
+
+.number {
+  font-size: 28px;
+}
+
+.data-description {
+  font-size: 14px;
+  position: relative;
+  top: -9px;
+  left: 2px;
+}
+
+.data [class*="glyphicon"] {
+  font-size: 14px;
+  position: relative;
+  top: -8px;
+  left: 5px;
+}
+[class*="positive"] {
+  color: #31bd17;
+}
+[class*="negative"] {
+  color: #f00000;
+}
+h2 small {
+  font-weight: 300;
+  color: #6f6f6f;
+}
+
+/* ----------------------------
+  Button Styles
+  ---------------------------*/
+.btn-primary {
+  color: #ffffff;
+  background-color: #E2624B;
+  border: 1px solid transparent;
+}
